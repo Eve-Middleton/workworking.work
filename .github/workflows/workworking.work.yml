@@ -45,6 +45,4 @@ jobs:
             server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USERNAME }}
             password: ${{ secrets.FTP_PASSWORD }}
-            port: 21
-            local-dir: /docs/.vuepress/dist/
-            remote-dir: /wwwroot/
+            remote-dir: ./wwwroot/
