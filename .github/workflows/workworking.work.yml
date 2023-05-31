@@ -42,9 +42,9 @@ jobs:
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-            server: abj1vn44.gotoftp11.com
+            server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USERNAME }}
             password: ${{ secrets.FTP_PASSWORD }}
             port: 21
-            local-dir: docs/.vuepress/dist
-            remote-dir: wwwroot
+            local-dir: docs/.vuepress/dist/
+            remote-dir: wwwroot/
