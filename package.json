@@ -2,7 +2,7 @@
   "version": "2.0.0-alpha.26",
   "private": true,
   "scripts": {
-    "build": "pnpm build:all && pnpm build:copy  && pnpm docs:build",
+    "build": "pnpm build:all && pnpm build:copy",
     "build:all": "pnpm -r --stream build",
     "build:copy": "pnpm --parallel --stream copy",
     "clean": "pnpm --parallel --stream clean",
