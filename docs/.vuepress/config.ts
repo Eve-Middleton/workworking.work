@@ -160,7 +160,7 @@ export default defineUserConfig({
       katex: true,
       mermaid: true,
       chartjs: true,
-      // giscus: {
+      // giscus: { // 评论相关
       //   repo: "This-is-an-Apple/gitalk-comments",
       //   repoId: "MDEwOlJlcG9zaXRvcnkyMTA1MjQyMTQ=",
       //   category: "Announcements",
@@ -188,7 +188,11 @@ export default defineUserConfig({
     },
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">workworking.work</a> 2023-2023
+
+      <a href="https://beian.miit.gov.cn" target="_blank">陕ICP备2023006768号-1</a>
+      &nbsp;
+      &copy; <a href="https://workworking.work" target="_blank">workworking.work</a> 2023-2023
+
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
